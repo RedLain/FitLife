@@ -1,6 +1,7 @@
 # Проект FitLife - MVP версия 1.0
 # Импортировал sys так как из-за кодировки тест был с ошибкой
 import sys
+
 sys.stdout.reconfigure(encoding='utf-8')
 
 WATER_PER_KG = 30
