@@ -34,7 +34,7 @@ try:
                         .replace(',', '.'))
 except ValueError:
     print('Ошибка: введите число с точкой (пример: 1.65)')
-    exit()
+    sys.exit()
 
 # Проводим расчёты
 bmi = round(user_weight / (user_height ** 2), 1)
